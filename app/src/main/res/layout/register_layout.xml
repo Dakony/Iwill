@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full name"
+        android:inputType="textPersonName"
+        app:met_primaryColor="@android:color/darker_gray"
+        app:met_textColor="@android:color/darker_gray"
+        app:met_iconPadding="0dp"
+        app:met_iconRight="@drawable/ic_person_black_24dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:met_primaryColor="@android:color/darker_gray"
+        app:met_textColor="@android:color/darker_gray"
+        app:met_iconPadding="0dp"
+        app:met_iconRight="@drawable/ic_email_black_24dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:met_primaryColor="@android:color/darker_gray"
+        app:met_textColor="@android:color/darker_gray"
+        app:met_iconPadding="0dp"
+        app:met_iconRight="@drawable/ic_lock_black_24dp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        app:met_primaryColor="@android:color/darker_gray"
+        app:met_textColor="@android:color/darker_gray"
+        app:met_iconPadding="0dp"
+        app:met_iconRight="@drawable/ic_phone_iphone_black_24dp"/>
+</LinearLayout>

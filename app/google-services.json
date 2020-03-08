@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "680828816236",
+    "firebase_url": "https://iwill-e233a.firebaseio.com",
+    "project_id": "iwill-e233a",
+    "storage_bucket": "iwill-e233a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680828816236:android:627d8591c9159fd043c149",
+        "android_client_info": {
+          "package_name": "com.example.android.iwill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680828816236-hgre6f21qsrvanr20qdnuss1dc6j9jv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.iwill",
+            "certificate_hash": "88ed2c406afc4378a13a01af4805c13ebdefbded"
+          }
+        },
+        {
+          "client_id": "680828816236-0ju9vss9909drh8jsjbmg9um5usgutmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlo1Igepdl97w6q2Ryh0aFtGBQw0j5uo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680828816236-0ju9vss9909drh8jsjbmg9um5usgutmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
